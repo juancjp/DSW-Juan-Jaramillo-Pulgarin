@@ -1,2 +1,9 @@
 
-h1{color: blue;}
+body{background-color: transparent;}
+
+h1{color: blue; font-size: 26px;}
+
+#title1{
+	color: #061801;
+	background-color: #D5D1D4;
+}
