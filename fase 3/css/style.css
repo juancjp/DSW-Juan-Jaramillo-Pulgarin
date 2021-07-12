@@ -3,6 +3,13 @@ body{
 
 }
 
+.portada{
+		height: 400px;
+		background-color: red;
+		color: white;
+
+
+}
 /*
 header{
 		background-color: cadetblue;
