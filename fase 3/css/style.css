@@ -1,28 +1,37 @@
 body{
-	background-color: burlywood;
-
+	background-color: darkseagreen;
+	padding: 15px;
 
 }
 
 header{
+		background-color: cadetblue;
+		padding: 5px;
 
 }
 
 nav{
-
-
+	background-color: lavender;
+	padding: 5px;
 }
 
 section{
+		background-color: aqua;
+		padding-top: 2px;
+		padding-left: 4px;
 
 }
 
 aside{
+	background-color: ivory;
+	padding: 5px;
 
 }
 
 footer{
-	
+	   background-color: floralwhite;
+	   padding: 5px;
+
 }
 
 
