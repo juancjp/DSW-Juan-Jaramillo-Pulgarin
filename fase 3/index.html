@@ -8,42 +8,58 @@
     <meta name="Cursos virtuales" content="Educación virtual, módulos de enseñanza virtual, objetos virtuales de Aprendizaje">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">  
     <title>Enseñanza virtual</title>
- 
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+   <!-- <link rel="stylesheet" type="text/css" href="css/style.css"> -->
 
   </head>  
   <body>    
     <header>
       <h1 id="title1">Módulos de educación virtual. </h1>      
-    </header>    
-    <nav>
-      <ul>
-            <li> Inicio</li>
-            <li>Temas
-                <ul>
-                    <li><a href="#"></a>Tema 1</li>
-                    <li><a href="#"></a>Tema 2</li>
-                    <li><a href="#"></a>Tema 3</li>
-                </ul>
-            </li>
-            <br>
-            <li>Recursos digitales
-                 <ul>
-                     <li><a href="#"></a>Recurso 1</li>
-                    <li><a href="#"></a>Recurso 2</li>
-                    <li><a href="#"></a>Recurso 3</li>
-                </ul>
-            </li>
-            <br>
+    </header>  
 
-            <li>Aprendizaje</li>
-            <li>Acerca de</li>
-            <a href="Fase 2/index.html">inicio</a>
-            
-        </ul>
-     
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="inicio.html">Inicio</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="digitales.html">Recursos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="temas.html">Temas</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Temas
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="temas.html">Tema 1</a></li>
+            <li><a class="dropdown-item" href="#">Tema 2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+  
+
+    <div>
 
     <section>      
       <article>
@@ -53,7 +69,7 @@
 
         </p>
         </h3>
-        <p></p>
+        <p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Recusandae saepe repellendus numquam nihil quidem fuga quas odit dolorum porro quia vel rem ipsa dolorem, enim, provident perspiciatis nesciunt praesentium laudantium!</p>
         <div>
           <p></p>
           <img src="" alt="">          
@@ -67,8 +83,10 @@
         <img src="" alt="banner de publicidad">
       </a>
       <h3></h3>
-      <p></p>
+      <p> Somo la mejor educación virtual</p>
     </aside>
+
+    </div>
 
     <footer>
       <h4>Avisos legales</h4>
