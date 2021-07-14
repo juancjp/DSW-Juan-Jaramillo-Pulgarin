@@ -27,7 +27,7 @@ h1{
 
 }
 #barra{
-	background: #D6CFCD;
+	background-color:  darkseagreen;
 	width: 930px;
 	padding: 5px 10px;
 	border: 1px solid #086A87;
@@ -105,8 +105,10 @@ h1{
 }
 
 #frente{
-	padding: 5px;
-	margin-left	: 10px;
+	padding: -50px;
+	margin-left	: 0px;
+
+
 }
 
 #aside1{
