@@ -113,4 +113,11 @@ h1{
 
 #aside1{
 	border-image: 5px;
+	padding: -5px;
+
+}
+#aside1 img{
+	border-image: 2px;
+	height: 400px;
+
 }
