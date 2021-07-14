@@ -9,7 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">  
     <title>Enseñanza virtual</title>
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
 
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
  <link rel="stylesheet" type="text/css" href="css/style.css"> 
@@ -17,117 +17,73 @@
   </head>  
   <body>    
     
+    <div id="contenedor">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="inicio.html">Inicio</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="digitales.html">Recursos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="temas.html">Nosotros</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Temas
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="temas.html">Tema 1</a></li>
-            <li><a class="dropdown-item" href="#">Tema 2</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Acerca de</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
-      </form>
-    </div>
-  </div>
-</nav>
-
-<header>
-  <div class="portada d-flex justify-content-center align-items-center flex-column">
-    <h1>Módulos de educación virtual</h1>
-    <p>Es la mejor opción que puedes tener, esta al alcence de tu mano.</p>
-
-    <button class="btn btn-info">Descubre mas</button>
-
-  </div>
-</header>
+<header id="cabecera">
+  
+<div id="frente">
+  <img src="image/banner.jpg" width="950px" height="300px" alt="EDUCACIÓN VIRTUAL">
+</div>
   
 
 
+</header>
+<nav id="barra">
+  <ul>
+    <li><a href="INDEX.html">INICIO</a> </li>
+    <li><a href="servicios.html"> Servicios</a> </li>
+    <li><a href="promociones.html"> Promociones</a> </li>
+    <li><a href="guarderia.html">Guarderia </a> </li>
+    <li><a href="productos.html"> Productos</a> </li>   
+    
+  </ul>
+</nav><!--FIN barra-->
 
-    <div>
+<section id="sesion">
+  <article>
+   <h1>Cuidados y educacion del perro.</h1> <br/>
 
-    <section>      
-      <article>
-        <h2>Somos educación virtual</h2>
+    <figure id="aside1" >
+      <img src="img/aside1.jpg">
+    </figure>
+    No insista: antes de los cuatro meses, un cachorro no aprende a hacer sus necesidades cuando lo sacan o en el sitio asignado. Así que no hay castigo que valga, tal vez un rotundo ‘no, eso no se hace’, se le vaya quedando grabado.
 
-        <h3>
-           
+Pero es imposible que aprenda porque hasta esa edad su cuerpo no tiene control de esfínteres, no tiene capacidad de aguantar. Así que no es un problema de actitud ni de comportamiento, sino fisiológico..
+  </article>
+  <article>
+  <h1>Salir de viaje con su mascota.</h1> <br/>
 
-        </p>
-        </h3>
-        <p>Lorem ipsum, dolor, sit amet consectetur adipisicing elit. Recusandae saepe repellendus numquam nihil quidem fuga quas odit dolorum porro quia vel rem ipsa dolorem, enim, provident perspiciatis nesciunt praesentium laudantium!</p>
-        <div>
-          <p></p>
-          <img src="" alt="">          
-        </div>
-      </article>      
-    </section>
+  <img src="img/aside2.jpg" width="200px" height="140">
+    Durante este periodo, lo único que hay que hacer es tener paciencia y limpiar para que no coja mal olor ese punto.
+“Lo ideal es que mientras el perro no esté supervisado, lo tengan en un sitio donde no haya lío si hace sus necesidades cuando los dueños no están. Hay que limitarle los espacios mientras empieza a superar ese periodo”, comenta la médico veterinaria y etóloga, Carolina Alaguna.
 
-    <aside>
-      <h3></h3>
-      <a href="">
-        <img src="" alt="banner de publicidad">
-      </a>
-      <h3></h3>
-      <p> Somo la mejor educación virtual</p>
-    </aside>
+La experta aclara que ese sitio debe ser distinto al lugar donde tiene la comida y la cama. “Hay que diferenciar el espacio donde come, donde descansa y donde hace sus necesidades, así en al noche defeque u orine ahí al principio”, dice.
+  </article>
+</section>
+<aside id="columna">
+<h1>Solicitar cita medica.</h1> <br/>
 
-    </div>
+  <form name="Solicitar citas medicas" id="miform">
+    <label for="text:">Mascota:</label>
+    <input type="text" placeholder="Nombre de la mascota"></input>    
+  <label for="number:">Edad</label>
+  <input type="number" value="1" min="0" max="15" ></input>
+  <label>Raza:</label>
+  <input type="text" placeholder="Ingrese la raza."></input>
+  
+  <input type="datetime" name="Fecha"></input>
+  </form>
+</aside>  
+  
+</div><!--FIN contenedor-->
 
-   
-
-    <footer>
-      <h4>Avisos legales</h4>
-      <a href="">Política de cookies</a>
-      <h4>Redes sociales</h4>
-      <a href=""></a>
-
-
-    </footer>
-
-
-     <nav aria-label="Page navigation example">
-      <ul class="pagination">
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-        </a>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">1</a></li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-        </a>
-      </li>
-    </ul>
-    </nav>
+<footer id="pie">
+  <p>
+    <h2>Contactenos</h2>
+  </p>
+  Todos los derechos reservados Juan Jaramillo. 
+</footer>
+    
 
   </body>  
 </html>

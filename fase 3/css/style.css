@@ -1,55 +1,114 @@
+*{
+	font-family: Arial;
+}
 body{
-	margin: 0cm;
+	
+	background: white;
+	text-align: center;
+}
+h1{
+	font: bold 30px verdana,sans-serif;
+}
+#contenedor{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#cabecera{
+	height: 220px;
+	background: black;
+	border-radius: 4px #999999;
+	/*padding: 20px 5px;*/
+	padding: 0px;
+	border: 1px solid #086A87;
+	width: 950px;
+	color: #8E827F;
+	margin-top: 10px;
 
 }
-
-.portada{
-		height: 400px;
-		background-image: url(https://images.unsplash.com/photo-1577036421869-7c8d388d2123?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
-		background-size: cover;
-		background-position: center;
-		color: floralwhite;
-
-
-
-}
-/*
-header{
-		background-color: cadetblue;
-		padding: 5px;
+#barra{
+	background: #D6CFCD;
+	width: 930px;
+	padding: 5px 10px;
+	border: 1px solid #086A87;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 20px;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
 
 }
+#barra ul{
+	margin: 0;
+	padding: 0;
+}
+#barra ul li{
+	padding: 20px;
+	margin-left: -45px;
+}
 
-nav{
-	display: grid;
-	grid-template-columns: 1fr;
-
-	background-color: lavender;
+#barra li{
+	display: inline-block;
+	list-style: none;
 	padding: 5px;
+	font:bold 14px verdana,sans-serif;
 }
 
-section{
-		background-color: aqua;
-		padding-top: 2px;
-		padding-left: 4px;
+#barra ul li a{
+	text-decoration: none;
+	color: #522A6C;
+	font-weight: bold;
+	padding: 10px;
 
 }
 
-aside{
-	background-color: gainsboro;
+/*Animacion del menu*/
+#barra ul li a:hover{
+	background-color: #F3F040;
+	color: #EA4A3D;
+
+}
+#sesion{
+	float: left;
+	width: 630px;
+	margin: 0px;
+	color: #2E2E2E;
+	margin-top: 10px;	
+
+}
+
+#sesion article{
+	background: #D6CFCD;
+	margin: 2px;
+	border-radius: 5px;
 	padding: 5px;
 
 }
-
-footer{
-	   background-color: floralwhite;
-	   padding: 20px;
+#sesion article h1{
+	color: black;
+	text-shadow: #2E2E2E 3px 3px 5px;
 
 }
 
-div{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+#columna{
+	background: #D6CFCD;
+	float: left;
+	width: 240px;
+	margin: 10px auto;
+	padding:10px;
+	border-radius: 5px	;
 }
 
+#pie{
+	clear: both;	
+	text-align: center;
+	border-top: 2px solid #999999;
+}
 
+#frente{
+	padding: 5px;
+	margin-left	: 10px;
+}
+
+#aside1{
+	border-image: 5px;
+}
