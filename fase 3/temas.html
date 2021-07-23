@@ -1,75 +1,296 @@
-<!DOCTYPE html>
-<html lang="es"> 
+<!doctype html>
+<html lang="es">
 
-  <head>    
-    <title>Educación virtual</title>    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <meta name="Cursos virtuales" content="Educación virtual, módulos de enseñanza virtual, objetos virtuales de Aprendizaje">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
-    <title>Enseñanza virtual/inicio</title>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="../css/main.css">
 
+  <title>Temas</title>
+</head>
 
-  </head>  
-  <body>    
-    <div id="contenedor">
+<body>
+  <!--========================================================== -->
+  <!-- ENCABEZADO -->
+  <!--========================================================== -->
+  <header class="container-fluid bg-primary d-flex justify-content-center">
+    <p class="text-light mb-0 p-2 fs-6" style="background-color: rgb(207, 17, 42); font-weight: 200;"> EDUCACION
+      VIRTUAL
+      Contactanos +57 3145249335</p>
+  </header>
 
-<header id="cabecera">
-  
-<div id="frente">
-  <img src="image/austin-distel-mpN7xjKQ_Ns-unsplash.jpg" width="950px" height="200px" alt="EDUCACIÓN VIRTUAL">
-</div>
-  
+  <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">
+        <span class="fs-5 text-primary fw-bold">Inicio</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-
-</header>
-<nav id="barra">
-  <ul>
-    
-    <li><a href="inicio.html">Inicio</a> </li>
-    <li><a href="recursos digitales.html">Temas</a> </li>
-    <li><a href="temas.html">Módulos</a> </li>
-     <li><a href="acercade.html"> Acerca de</a> </li>   
-    
-  </ul>
-</nav><!--FIN barra-->
-
-<section id="sesion">
-  <article>
-   <h1>Nuestros Módulos de educación:</h1> <br/>
-
-    <figure id="aside1" >
-      <img src="image/educacion3.jpg" height="200px" width="550px" alt="Educación">
-    </figure>
-    Puedes con tar con nosotros dejar en neustras manos lo concerniente a tu educación, aqui podras encontrar los mejores curos virtuales, contamos con la mejor plataforma de educación tenemos tecnolgias de punta.
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
 
 
-  </article>
-  <article>
-  <h1>Porque estudiar en modalidad virtual</h1> <br/>
+            <div class="dropdown">
 
-  <img src="img/aside2.jpg" width="200px" height="140">
-    La educaciòn virtual en los años, se esta tornando en lago esencial 
+              <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Temas
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#"></a>PHP</li>
+                <li><a class="dropdown-item" href="#">Marketing</a></li>
+                <li><a class="dropdown-item" href="#">Diseño gráfico</a></li>
+              </ul>
+            </div>
+
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#equipo">Equipo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#seccion-contacto">Contactos</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="email" placeholder="Correo Electronico" aria-label="Suscribete">
+          <button class="btn btn-primary btn-primary-outline-success" type="button">Suscribete</button>
+        </form>
+      </div>
+
+    </div>
+  </nav>
+
+  <!--========================================================== -->
+  <!-- SLIDER DE IMAGENES-->
+  <!--========================================================== -->
+
+  <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="../img/php1.jpg" class="d-block w-100" alt="" height="1920" width="1005">
+      </div>
 
 
-  </article>
-</section>
-<aside id="columna">
-<h1></h1> <br/>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="../img/php4.jpg" class="d-block w-100" alt="..." height="1920" width="1005">
+      </div>
 
-  
-</aside>  
-  
-</div><!--FIN contenedor-->
 
-<footer id="pie">
-  <p>
-    <h2>Contactenos</h2>
-  </p>
-  Todos los derechos reservados Juan Jaramillo. 
-</footer>
-  </body>  
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="../img/php3.jpg" class="d-block w-100" alt="..." height="1920" width="1005">
+      </div>
+
+    </div>
+    <button class=" carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <!--========================================================== -->
+  <!-- INTRODUCCION DE SERVICIOS-->
+  <!--========================================================== -->
+
+
+  <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+    id="intro">
+    <h1 class="p-3 fs-2 border-top border-3">Temas <span class="text-primary">Programación en PHP.<span />
+    </h1>
+    <p class="p-3  fs-4">
+      <span class="text-primary">Somos la mejor academia de PHP</span>Nuestros cursos en
+      <strong>PHP</strong> son
+      los mejores del mercado,
+      contamos con un amplio equipo de profesionales, todo nuestro grupo de tutores esta altamente
+      capacitado y
+      certificado, te brindamos la garantía,
+      que seras capacitado por el mejor equipo de profesionales.
+    </p>
+  </section>
+
+  <!--========================================================== -->
+  <!-- TIPOS DE SERVICIOS-->
+  <!--========================================================== -->
+
+
+  <section class="w-100">
+    <div class="row w-75 mx-auto" id="servicios-fila-1">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="../img/desarrollo.png" alt="desarrollo" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Nuestros cursos</h3>
+          <p class="px-4">Desarrollo web, Marketing Digital, Programación en PHP, </p>
+        </div>
+
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="../img/poo1.png" alt="concepto" width="300" height="200">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Programación POO</h3>
+          <p class="px-4">Aprende a progrmar en las con las últimas tendencias y mejores practicas,
+            con nosotros te convertiras en un experto en programación POO con nuestros cursos de PHP
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+        <img src="../img/cor1.png" alt="comunicaciones" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Para el mes de agosto...</h3>
+          <p class="px-4">Lanzamiento de cursos, nuevas modalidades, seguimos aumentando nuestra presencia.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+        <img src="../img/seo.png" alt="seo" width="180" height="160">
+
+        <div>
+          <h3 class="fs-5 mt-4 px-4 pb-1">Aprenderas SEO..</h3>
+          <p class="px-4">Nuestro gran equipo de profesionales, te daran todas las herramientas necesarias
+            para que aprendas a darle Posicionamiento a tus sitios web.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--========================================================== -->
+  <!-- SECCION ACERCA DE NOSOTROS-->
+  <!--========================================================== -->
+
+  <section>
+    <div class="container w-50 m-auto" id="equipo">
+      <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
+      <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te
+        sientes listo
+        para
+        este reto, te esperamos para que te unas a nosotros.</p>
+    </div>
+
+    <div class="mt-5 text-center">
+      <img id="img-equipo" src="../img/equipo.jpg" alt="equipo">
+    </div>
+
+    <div id="local" class="border-top border-2">
+      <div class="mapa"> </div>
+      <div>
+        <div class="wrapper-local">
+          <h2>Estamos ubicados en Medellín Antioquia en el valle del software ruta N</h2>
+          <h2 class="text-primary mb-4" id="typewriter"></h2>
+          <p class="fs-5 text-body">Nos encontramos en la mejor ciudad de Colombia para desarrolladores, ya
+            que es la única ciudad de Colombia, que posee todas las cualidades y facilidades para los
+            desarrolladores y enprendedores. <br>
+            Puedes ubicarnos con mucha facilidad en la ruta N</p>
+          <section class="d-flex justify-content-start" id="numeros-local">
+            <div>
+              <p class="text-primary fs-5">248</p>
+              <p>Dias de Sol</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">100%</p>
+              <p>Aprobado</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">23°C</p>
+              <p>Temperatura</p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+  <section id="seccion-contacto" class="border-bottom border-secondary border-2">
+    <div id="bg-contactos">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#1b2a4e" fill-opacity="1"
+          d="M0,32L120,42.7C240,53,480,75,720,74.7C960,75,1200,53,1320,42.7L1440,32L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z">
+        </path>
+      </svg>
+    </div>
+
+
+    <div class="container  border-top border-primary " style="max-width: 500px" id="contenedor-formulario">
+      <div class="text-center mb-4" id="titulo-formulario">
+        <div><img src="./img/support.png" alt="" class="img-fluid ps-5"></div>
+        <h2>Contactanos</h2>
+        <p class="fs-5">Estamos aqui para hacer realidad de tus proyectos</p>
+      </div>
+
+
+
+      <form action="">
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" placeholder="correo@ejemplo.com">
+        </div>
+
+
+        <div class="mb-3">
+          <input type="input" class="form-control" id="nombre" placeholder="Diego Peréz">
+        </div>
+
+
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Teléfono">
+        </div>
+
+        <div class="mb-3">
+          <textarea class="form-control" id="msj" rows="4"></textarea>
+        </div>
+
+        <div class="mb-3">
+          <button type="button" class=" btn btn-primary w-100 fs-5">Enviar Mensaje</button>
+        </div>
+      </form>
+
+    </div>
+  </section>
+
+
+  <!--========================================================== -->
+  <!--FOOTER-->
+  <!--========================================================== -->
+
+
+  <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3  pt-3">Juan Jaramillo &copy; Todos Los Derechos Reservados 2021</p>
+    <div id="iconos">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+    </div>
+  </footer>
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="../main.js"></script>
+</body>
+
 </html>
