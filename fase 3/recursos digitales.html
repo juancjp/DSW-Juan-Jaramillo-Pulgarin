@@ -108,8 +108,7 @@
   <!--========================================================== -->
 
 
-  <section class="d-flex flex-column justify-content-center pt-5  w-20m-auto"
-    id="intro">
+  <section class="d-flex flex-column justify-content-center pt-5  w-20m-auto" id="intro">
     <h1 class="p-3 fs-2 border-top border-3">Temas <span class="text-primary">Programación en PHP.<span />
     </h1>
     <p class="p-3  fs-4">
@@ -178,18 +177,65 @@
   <!--========================================================== -->
   <!-- SECCION ACERCA DE NOSOTROS-->
   <!--========================================================== -->
+  <div class="container-fluid container-md container-md">
+    <p class="text-sm-start " style="text-align: justify;">
+    <h3>Cómo utilizar las Media Queries de CSS3. </h3>
+    <br>
+    Las Media Queries son una de las grandes ventajas de CSS3, ya que permiten saber qué sistema se está visualizando
+    una página web y, en función de ello, aplicar unas reglas de estilo u otras. Así, podemos servir un CSS
+    personalizado, acorde las condiciones del navegador o dispositivo que nos visita. Como veremos a continuación, se
+    han convertido en uno de los mejores recursos con los que cuentan los diseñadores para hacer sitios responsive.
+    <br>
 
+    Utilizar las Media Queries de CSS3 es muy sencillo, como todo el lenguaje CSS en general. De una manera descriptiva
+    podemos indicar una condición y a continuación los estilos que deben aplicarse cuando ésta se cumpla. Para aclarar
+    su sintaxis veremos una serie de ejemplos útiles e ilustrativos.
+    <br>
+    Cómo colocar en el orden adecuado los Media Queries
+    Tendrás que tener en cuenta un par de cosas para que el Orden de las Media Queries sea el correcto:
+    <br>
+    La cascada que, a nivel de CSS, atañe completamente a las reglas de estilo.
+    Aplicar la regla que llamamos Mobile First.
+    Como aclaración, comentaros que la cascada en CSS es la forma de procesar los estilos para que se puedan
+    sobrescribir. Es decir, el último valor que tiene en cuenta es el último que se definió.
+    <br>
+    Por lo que el orden que se usa habitualmente para las Media Queries queda así:
+
+    Los estilos sin Media Queries serán globales y estos afectarán a todos los dispositivos.
+    Lo siguiente es colocar en cabeza las Media Queries con la siguiente anchura de pantalla que necesites.
+    Por último, colocaremos las Media Queries para situar en orden creciente el resto de anchura de pantallas. Es decir,
+    se finaliza con las Media Queries con la anchura mayor de pantalla <br>
+    </p>
+  </div>
   <section>
-    <div class="container w-50 m-auto" id="equipo">
-      <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
-      <p class="fs-4 ">Contamos con el mejor equipo y la mejor calidad humana, para que todos nuestros aprendices y
-        estudiantes se preparen de la mejor manera posible y puedan así ubicarse de una manera rápida en el mundo
-        laboral o en sus empresas o startup, en nuestra Academia de cursos virtuales tienes todo el respaldo qué
-        necesitas para ser el mejor profesional, empresario, o emprendedor.</p>
-    </div>
+    <div class="container" id="equipo">
+      <h1 class="mb-5 fs-2">Media Querys <span class="text-primary">Diseño responsive</span>.</h1>
+      <p class="fs-4 ">Responsive Web Design: Aproximación teórica <br>
+        El sitio presentado utiliza la técnica de Responsive Web Design para dar respuesta al crecimiento acelerado del
+        uso de dispositivos móviles con acceso a Internet. El diseño responsive puede manejar la visualización Web tanto
+        de escritoriocomo de dispositivos móviles, a través de sus tres ingredientes técnicos: las rejillas de fluidos,
+        las imágenes flexibles y las consultas de medios de comunicación. <br> El World Wide Web Consortium (W3C)I se muestra
+        a favor del principio "OneWeb", lo que significa poner a disposición de los usuarios de terminales móviles la
+        misma información y servicios que las computadoras de escritorio, enla medida de lo posible.2 Esto no significa
+        que la información y su representación sean exactamente las mismas para todos los dispositivos, ya que las
+        cualidades de éstos y el contexto en que son empleados son diferentes,y por lo tanto habrá servicios e
+        información más apropiados para unos contextos que para otros. <br> Con una sola versión en HTML y CSSII se cubren
+        todas las resoluciones de pantalla desde televisores, computadoras de escritorio hasta tabletas yteléfonos
+        inteligentes. El RWD consiste en una combinación de diseño, plantillas flexibles y un uso inteligente de reglas
+        de CSS. 3,4 <br>
+
+        Otros investigadores además de Ethan Marcotte han dado su propia definición de RWD.Knight refiere que el RWD es
+        el enfoque que sugiere que el diseño y eldesarrollo deben responder al comportamiento y al entorno del
+        usuario,basándose en el tamaño de la pantalla, la plataforma y la orientación.5 Snell expone que el RWD provee
+        una experiencia positiva e intuitiva independientemente del dispositivo, sin requerir sub-dominios separados
+        para los dispositivos móviles. Para todo esto se hace uso de las reglas de CascadingStyle Sheets (CSS) Media
+        Queries, lo cual permite que los elementos se adapten al ancho y orientación de los dispositivos.6.</p>
+    </div> <br>
+
+
 
     <div class="mt-5 text-center">
-      <img id="img-equipo" src="../fase 3/image/equipo.jpg" alt="equipo">
+      <img id="img-equipo" src="../fase 3/image/Media1.png" alt="equipo">
     </div>
 
     <div id="local" class="border-top border-2">
